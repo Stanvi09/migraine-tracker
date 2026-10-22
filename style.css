@@ -1,0 +1,7 @@
+:root {
+  --primary: #5b4b8a;
+  --light: #f4f1fa;
+  --text: #2d2a3e;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: var(--light); color: var(--text); line-height: 1.6; }
