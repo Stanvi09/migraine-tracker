@@ -1,4 +1,0 @@
-.tip-card { background: white; padding: 20px; border-radius: 10px; margin: 16px 0; border-left: 6px solid var(--primary); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-.tip-card ul { margin-left: 20px; }
-.tip-card.warning { border-left-color: #c0392b; }
-.disclaimer { text-align: center; font-style: italic; color: #777; margin-top: 24px; }
