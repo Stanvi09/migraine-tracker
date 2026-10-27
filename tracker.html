@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log Migraine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="log.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="log.html">Log Migraine</a>
+    <a href="history.html">History</a>
+    <a href="tips.html">Tips</a>
+  </nav>
+
+  <main>
+    <h1>Log a Migraine</h1>
+    <form class="log-form">
+      <label>Date <input type="date"></label>
+      <label>Time <input type="time"></label>
+      <label>Pain level (1-10) <input type="range" min="1" max="10"></label>
+      <label>Duration (hours) <input type="number" min="0"></label>
+
+      <fieldset>
+        <legend>Triggers</legend>
+        <label><input type="checkbox"> Stress</label>
+        <label><input type="checkbox"> Lack of sleep</label>
+        <label><input type="checkbox"> Skipped meal</label>
+        <label><input type="checkbox"> Bright light</label>
+      </fieldset>
+
+      <label>Medication taken <input type="text"></label>
+      <label>Notes <textarea rows="4"></textarea></label>
+      <button type="submit">Save Entry</button>
+    </form>
+  </main>
+</body>
+</html>
