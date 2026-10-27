@@ -1,0 +1,8 @@
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 20px 0; }
+.stat { background: white; padding: 16px; border-radius: 10px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.stat p { font-size: 1.4rem; color: var(--primary); font-weight: bold; }
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; }
+th { background: var(--primary); color: white; text-align: left; }
+th, td { padding: 12px; }
+tr:nth-child(even) { background: var(--light); }
+tr:hover { background: #e6e0f5; }
